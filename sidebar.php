@@ -2,7 +2,7 @@
   <div class="sidebar-module sidebar-module-inset">
     <h4>About</h4>
     <p>
-      Web master and plant nerd. Learning to wordpress efficiently.
+     <?php the_author_meta( 'description' ); ?>
     </p>
   </div>
   <div class="sidebar-module">
